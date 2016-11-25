@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="notes_image">
+        <item>@drawable/ic_website</item>
+        <item>@drawable/ic_mail</item>
+        <item>@drawable/ic_phone</item>
+        <item>@drawable/ic_book</item>
+        <item>@drawable/ic_music</item>
+        <item>@drawable/ic_note</item>
+    </integer-array>
+
+</resources>

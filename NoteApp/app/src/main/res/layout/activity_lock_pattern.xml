@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lock_pattern"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.thinkdifferent.noteapp.view.activity.LockPatternActivity">
+
+
+    <TextView
+        android:id="@+id/tv_pattern_info"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        tools:text="@string/add_pattern" />
+
+    <com.andrognito.pinlockview.IndicatorDots
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_pattern_info"
+        android:layout_marginTop="12dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/layout_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/indicator"
+        android:orientation="vertical">
+
+        <com.andrognito.pinlockview.PinLockView
+            android:id="@+id/pin_lock_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:pinLength="4" />
+
+
+        <Button
+            android:id="@+id/btn_change_code"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_pattern"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>

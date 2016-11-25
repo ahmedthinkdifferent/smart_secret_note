@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">2S note</string>
+    <string name="change_pattern">change pattern</string>
+    <string name="add_pattern">Add Security Pattern</string>
+    <string name="add_new_pattern">Add New pattern</string>
+    <string name="add_old_pattern">Add old pattern</string>
+    <string name="pattern_changed">Pattern changed successfully.</string>
+    <string name="wrong_pattern">Incorrect pattern.</string>
+    <string name="pattern_saved">Pattern saved successfully.</string>
+    <string name="add_new_category">Add new category</string>
+    <string name="add_category">Add category</string>
+    <string name="update_category">Update category</string>
+    <string name="category_title">Title</string>
+    <string name="category_image">Image</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">SAVE</string>
+    <string name="category_background">Category Background</string>
+    <string name="edit">EDIT</string>
+    <string name="delete_category">Delete</string>
+    <string name="update">Update</string>
+    <string name="category_title_empty">Empty field.</string>
+    <string name="security_code">Security code</string>
+    <string name="empty_field">Empty Field</string>
+    <string name="wrong_key">Incorrect key</string>
+    <string name="no_notes_add_new_note">no notes , add new note</string>
+    <string name="last_update">Last update %s</string>
+    <string name="title">Title</string>
+    <string name="subject">Subject</string>
+    <string name="change_color">Change color</string>
+    <string name="choose_color">Choose note background.</string>
+    <string name="update_note_successfully">Update note successfully.</string>
+    <string name="cannot_update_note">Cannot update note.</string>
+    <string name="add_note_successfully">Add New note.</string>
+    <string name="cannot_add_note">Cannot add note.</string>
+    <string name="note_type">Note type:-</string>
+    <string name="update_note">Update</string>
+    <string name="delete_note">Delete</string>
+    <string name="send_mail_chooser">Send mail…</string>
+    <string name="note_background_color">Note background :-</string>
+    <string name="show_list">show List</string>
+    <string name="show_grid">Show Grid</string>
+    <string name="cannot_open_link">Cannot open link</string>
+    <string name="cannot_send_mail">Cannot send mail</string>
+    <string name="cannot_make_call">Cannot make a call</string>
+
+
+    <string-array name="colors">
+        <item>#003F87</item>
+        <item>#00688B</item>
+        <item>#008080</item>
+        <item>#009ACD</item>
+        <item>#05B8CC</item>
+        <item>#108070</item>
+        <item>#20B2AA</item>
+        <item>#325C74</item>
+        <item>#344152</item>
+        <item>#35586C</item>
+        <item>#36648B</item>
+        <item>#39B7CD</item>
+        <item>#3E7A5E</item>
+        <item>#525C65</item>
+        <item>#694489</item>
+        <item>#6F4242</item>
+        <item>#7D9EC0</item>
+        <item>#816687</item>
+        <item>#862A51</item>
+        <item>#8B668B</item>
+    </string-array>
+
+    <string-array name="notes_types">
+        <item>Website</item>
+        <item>Mail</item>
+        <item>Phone</item>
+        <item>Book</item>
+        <item>Music</item>
+        <item>Note</item>
+    </string-array>
+
+    <array name="typed_colors">
+        <item>#003F87</item>
+        <item>#00688B</item>
+        <item>#008080</item>
+        <item>#009ACD</item>
+        <item>#05B8CC</item>
+        <item>#108070</item>
+        <item>#20B2AA</item>
+        <item>#325C74</item>
+        <item>#344152</item>
+        <item>#35586C</item>
+        <item>#36648B</item>
+        <item>#39B7CD</item>
+        <item>#3E7A5E</item>
+        <item>#525C65</item>
+        <item>#694489</item>
+        <item>#6F4242</item>
+        <item>#7D9EC0</item>
+        <item>#816687</item>
+        <item>#862A51</item>
+        <item>#8B668B</item>
+    </array>
+
+</resources>
